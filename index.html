@@ -21,14 +21,9 @@
 	    <link rel="stylesheet" type="text/css" href="style.css">
 	
 	<!-- INÍCIO do Reset de conteúdo de formulário de contacto FORMSPREE -->
-<script>
-window.onbeforeunload = () => {
-  for(const form of document.getElementsByTagName('form')) {
-    form.reset();
-  }
-}
-</script>
-<!-- FIM do Reset de conteúdo de formulário de contacto FORMSPREE -->
+ 		<script src="js/clearformspree.js"></script>
+	<!-- FIM do Reset de conteúdo de formulário de contacto FORMSPREE -->
+
 </head>
 
 <body>
@@ -109,6 +104,7 @@ window.onbeforeunload = () => {
 				  </fieldset>
 				  <input type="submit" value="Enviar mensagem">
 				</form><style>/* reset */													
+/* 
 #fs-frm input,
 #fs-frm select,
 #fs-frm textarea,
@@ -139,7 +135,7 @@ window.onbeforeunload = () => {
 }
 
 /* border, padding, margin, width */
-#fs-frm input,
+/*#fs-frm input,
 #fs-frm select,
 #fs-frm textarea,
 #fs-frm #card-element {
@@ -199,7 +195,7 @@ window.onbeforeunload = () => {
 }
 
 /* address, locale */
-#fs-frm fieldset.locale input[name="city"],
+/*#fs-frm fieldset.locale input[name="city"],
 #fs-frm fieldset.locale select[name="state"],
 #fs-frm fieldset.locale input[name="postal-code"] {
   display: inline;
