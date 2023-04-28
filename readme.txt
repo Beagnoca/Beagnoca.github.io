@@ -42,10 +42,8 @@ CREDITS & REFERENCES
 
 https://getbootstrap.com/
 
-Stock Photos
-https://unsplash.com/
-https://www.freepik.com/
-https://www.pexels.com/
+Photos
+https://deolindasantos.pt
 
 Fonts
 Google fonts
