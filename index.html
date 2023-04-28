@@ -129,6 +129,7 @@
 #fs-frm label,
 #fs-frm legend,
 #fs-frm ::placeholder {
+  font-color: black;
   font-size: .825rem;
   margin-bottom: .5rem;
   padding-top: .2rem;
@@ -142,14 +143,15 @@
 #fs-frm textarea,
 #fs-frm #card-element {
   border: 1px solid rgba(0,0,0,0.2);
-  background-color: rgba(255,255,255,0.9);
+  /*background-color: rgba(255,255,255,0.9);*/
+ background-color: gainsboro;
   padding: .75em 1rem;
   margin-bottom: 1.5rem;
 }
 #fs-frm input:focus,
 #fs-frm select:focus,
 #fs-frm textarea:focus {
-  background-color: gainsboro;
+  background-color: lightgray;
   outline-style: solid;
   outline-width: thin;
   outline-color: gray;
@@ -168,6 +170,7 @@
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
+	align: center;
 }
 #fs-frm [type="button"]:focus,
 #fs-frm [type="submit"]:focus,
