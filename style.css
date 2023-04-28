@@ -1329,18 +1329,18 @@ input[type="reset"],
 input[type="file"],
 button {
   background-image: none;
-  background: none;
+  background: #808080;
   text-decoration: none !important;
   display: inline-block;
   position: relative;
   border: 1px solid transparent;
   border-radius: 0;
   padding: 0.5em 1.5em;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   line-height: normal;
   text-align: center;
-  color: #fff;
+  color: #2F4F4F;
   z-index: 1;
   cursor: pointer;
   white-space: nowrap;
@@ -1367,6 +1367,7 @@ input[type="file"]:hover,
 button:focus,
 button:hover {
   text-decoration: none;
+  text-color: #ffffff;
   outline: 0;
 }
 .light .btn:hover {
